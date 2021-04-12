@@ -1,0 +1,77 @@
+
+@font-face{
+  src: url(../css/font/Arvo/Arvo-BoldItalic.ttf);
+  font-family: 'Arvo';
+}
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+}
+h1{
+  color: rgb(216, 225, 226);
+  font-family: 'Arvo';
+  font-size: 4em;
+  text-align: center;
+}
+.contain, .containn{
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.164);
+  box-shadow: 2px 3px 1px 1px rgba(52, 167, 187, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(13, 64, 73, 0.6);
+  margin-right: 5%;
+  margin-left: 3%;
+  width: 195%;
+  max-height: 300%;
+}
+.containn{
+  padding-bottom: 14%;
+}
+.container{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin: 1%;
+}
+img{
+  width: 17%;
+  height: 42%;
+  margin: 0.5%;
+  background: rgba(19, 18, 18, 0.164);
+  box-shadow: 2px 2px 1px 1px rgba(157, 157, 158, 0.479);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgb(7, 7, 7);
+  margin-left: 5.5px;
+}
+h2{
+  color: rgb(53, 193, 248);
+  margin:1px;
+  margin-left: 4px;
+  text-align: center;
+  font-weight: 900;
+  font-family: 'Arvo';
+}
+.card{
+  border: white 4px solid;
+  margin-bottom: 3px;
+  box-shadow: inset -4px -4px 3px rgba(52, 167, 187, 0.37), inset 2px 2px 4px rgba(157, 157, 158, 0.479);
+  padding: 5px;
+}
+.btn, .btn-reset{
+  background-color: khaki;
+  border: rgb(226, 213, 101);
+  color: black;
+  padding: 1%;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  margin-top: 8px;
+  font-weight: bold;
+}
+.btn{
+  margin-left: 41%;
+}

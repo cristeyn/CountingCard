@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack Game</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <h1>Counting Cards</h1>
+  <div class="container">
+    <div class="contain">
+        <div class="card">
+          <div id="cardseq">
+            <img src="img/spade2.png" alt="">
+            <img src="img/spade3.png" alt="">
+            <img src="img/spade4.png" alt="">
+            <img src="img/spade5.png" alt="">
+            <img src="img/spade6.png" alt="">
+            <h2 id="seq1"></h2>
+          </div>
+          <button class="btn" onclick="firstSequence()">Count</button>
+          <button class="btn-reset" onclick="restart()">Reset</button>
+        </div>
+        <div class="card">
+          <div id="card_seq">
+            <img src="img/spade7.png" alt="">
+            <img src="img/spade8.png" alt="">
+            <img src="img/spade9.png" alt="">
+            <h2 id="seq2"></h2>
+          </div>
+          <button class="btn" onclick="secondSequence()">Count</button>
+          <button class="btn-reset" onclick="restartt()">Reset</button>
+        </div>
+        <div class="card">
+          <div id="card_seq">
+            <img src="img/spade10.png" alt="">
+            <img src="img/spadeJ.png" alt="">
+            <img src="img/spadeQ.png" alt="">
+            <img src="img/spadeK.png" alt="">
+            <img src="img/spadeA.png" alt="">
+          <h2 id="seq3"></h2>
+          </div>
+        <button class="btn" onclick="thirdSequence()">Count</button>
+        <button class="btn-reset" onclick="restart3()">Reset</button>
+      </div>
+      <div class="card">
+        <div id="card_seq">
+          <img src="img/spade3.png" alt="">
+          <img src="img/spade7.png" alt="">
+          <img src="img/spadeQ.png" alt="">
+          <img src="img/spade8.png" alt="">
+          <img src="img/spadeA.png" alt="">
+          <h2 id="seq4"></h2>
+        </div>
+        <button class="btn" onclick="fourthSequence()">Count</button>
+        <button class="btn-reset" onclick="restart4()">Reset</button>
+      </div>
+    </div>
+    <div class="containn">
+    <div class="card">
+      <div id="card_seq">
+        <img src="img/spade2.png" alt="">
+        <img src="img/spadeJ.png" alt="">
+        <img src="img/spade9.png" alt="">
+        <img src="img/spade2.png" alt="">
+        <img src="img/spade7.png" alt="">
+        <h2 id="seq5"></h2>
+      </div>
+      <button class="btn" onclick="fifthSequence()">Count</button>
+      <button class="btn-reset" onclick="restart5()">Reset</button>
+    </div>
+    <div class="card">
+      <div id="card_seq">
+        <img src="img/spade2.png" alt="">
+        <img src="img/spade2.png" alt="">
+        <img src="img/spade10.png" alt="">
+        <h2 id="seq6"></h2>
+      </div>
+      <button class="btn" onclick="sixthSequence()">Count</button>
+      <button class="btn-reset" onclick="restart6()">Reset</button>
+    </div>
+    <div class="card">
+      <div id="card_seq">
+        <img src="img/spade3.png" alt="">
+        <img src="img/spade2.png" alt="">
+        <img src="img/spadeA.png" alt="">
+        <img src="img/spade10.png" alt="">
+        <img src="img/spadeK.png" alt="">
+        <h2 id="seq7"></h2>
+      </div>
+      <button class="btn" onclick="seventhSequence()">Count</button>
+      <button class="btn-reset" onclick="restart7()">Reset</button>
+    </div>
+  </div>
+</div>
+  <script src="cards.js"></script>
+</body>
+</html>
